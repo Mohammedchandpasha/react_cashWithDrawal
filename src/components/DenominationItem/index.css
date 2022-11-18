@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.list {
+  list-style-type: none;
+  max-width: 150px;
+}
+
+.button {
+  background-color: #c4c4c4;
+  width: 100px;
+}

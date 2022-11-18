@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.name-first-letter-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  color: #7c3aed;
+  margin-right: 10px;
+}
+.home-container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 20px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #585076;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #585076;
+}
+.withdraw {
+  color: white;
+}
+.denomination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  flex-wrap: wrap;
+}
+.ul-container {
+  max-width: 240px;
+  align-self: flex-start;
+  margin-right: 50px;
+}
